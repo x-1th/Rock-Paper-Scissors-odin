@@ -37,25 +37,23 @@ function getComputerChoice() {
 getComputerChoice();
 
 
-function getHumanChoice() {
+function getHumanChoice(){
     let userInput = prompt("Rock, Paper Or Scissors ?").toLowerCase();
 
-    switch (userInput) {
+    switch(userInput){
         case "rock":
-            console.log(`ur choice is : ${userInput}`);
             break;
         case "paper":
-            console.log(`ur choice is : ${userInput}`);
             break;
         case "scissors":
-            console.log(`ur choice is : ${userInput}`);
             break;
-
+        
         default:
             console.log("wrong choice");
     }
+    
 
-
+    console.log(`ur choice is : ${userInput}`);
     return userInput;
 
 }
